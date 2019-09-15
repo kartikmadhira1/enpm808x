@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kartikmadhira/github/enpm808x/week3/app_4_7/ques_4_7.cpp
+iostream
+-
+vector
+-
+string
+-
+limits
+-
+numeric
+-
+
