@@ -15,6 +15,12 @@
 /home/kartikmadhira/github/enpm808x/week3/build/app_4_5/CMakeFiles/edit_cache.dir
 /home/kartikmadhira/github/enpm808x/week3/build/app_4_5/CMakeFiles/install/local.dir
 /home/kartikmadhira/github/enpm808x/week3/build/app_4_5/CMakeFiles/rebuild_cache.dir
+/home/kartikmadhira/github/enpm808x/week3/build/app_4_7/CMakeFiles/install.dir
+/home/kartikmadhira/github/enpm808x/week3/build/app_4_7/CMakeFiles/list_install_components.dir
+/home/kartikmadhira/github/enpm808x/week3/build/app_4_7/CMakeFiles/app_4_7.dir
+/home/kartikmadhira/github/enpm808x/week3/build/app_4_7/CMakeFiles/edit_cache.dir
+/home/kartikmadhira/github/enpm808x/week3/build/app_4_7/CMakeFiles/install/local.dir
+/home/kartikmadhira/github/enpm808x/week3/build/app_4_7/CMakeFiles/rebuild_cache.dir
 /home/kartikmadhira/github/enpm808x/week3/build/test/CMakeFiles/install.dir
 /home/kartikmadhira/github/enpm808x/week3/build/test/CMakeFiles/list_install_components.dir
 /home/kartikmadhira/github/enpm808x/week3/build/test/CMakeFiles/cpp-test.dir

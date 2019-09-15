@@ -29,12 +29,22 @@ int main() {
     std::vector<double> gradeList;
     std::cout << "Enter the number of students: ";
     std::cin >> studentCount;
+    while (studentCount < 1) {
+        std::cout << "Number of students" <<
+                    "should be greater than 0\n Enter again";
+        std::cin >> studentCount;
+    }
     while (std::cin.fail()) {
         std::cout << "Please enter a valid number between 1 and 10";
         std::cin >> studentCount;
     }
     std::cout << "Enter the number of subjects: ";
     std::cin >> subjectCount;
+    while (subjectCount < 1) {
+        std::cout << "Number of subjects should be"
+                  << "greater than 0\n Enter again";
+        std::cin >> subjectCount;
+    }
     while (std::cin.fail()) {
         std::cout << "Please enter a valid number between 1 and 10";
         std::cin >> subjectCount;
@@ -55,7 +65,7 @@ int main() {
         // Loop over the fixed homework marks and average
         std::cout << "Enter marks for the "
                   << std::to_string(subjectCount)
-                  << " subjects" << "\n";
+                  << " subject(s)" << "\n";
         for (int i = subjectCount; i != 0; --i) {
             std::cin >> grade;
             while (std::cin.fail()) {
@@ -67,6 +77,7 @@ int main() {
             }
             sum+=grade;
         }
+
         grade = (sum/subjectCount);
         std::cout << "Your final grade is: " << grade << std::endl;
         gradeList.emplace_back(grade);

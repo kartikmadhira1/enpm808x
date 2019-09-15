@@ -170,6 +170,19 @@ app_4_5/fast:
 .PHONY : app_4_5/fast
 
 #=============================================================================
+# Target rules for targets named app_4_7
+
+# Build rule for target.
+app_4_7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 app_4_7
+.PHONY : app_4_7
+
+# fast build rule for target.
+app_4_7/fast:
+	$(MAKE) -f app_4_7/CMakeFiles/app_4_7.dir/build.make app_4_7/CMakeFiles/app_4_7.dir/build
+.PHONY : app_4_7/fast
+
+#=============================================================================
 # Target rules for targets named cpp-test
 
 # Build rule for target.
@@ -221,6 +234,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... shell-app"
 	@echo "... app_4_5"
+	@echo "... app_4_7"
 	@echo "... cpp-test"
 	@echo "... gtest"
 	@echo "... gtest_main"

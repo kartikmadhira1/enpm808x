@@ -4,7 +4,6 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <limits>
 #include <map>
 #include <sstream>
 
@@ -19,7 +18,7 @@ int main() {
     std::string word;
     vector<string> wordVector;
     map<string, int> wordDictionary;
-    std::cout << "Enter the word stream to add in the dictionary" <<
+    std::cout << "Enter the word stream to add" <<
                  "followed by ctrl-D to terminate:\n";
     int totalWords = 0;
     int uniqueWords = 0;
