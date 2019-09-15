@@ -29,13 +29,13 @@ int main() {
     std::vector<double> gradeList;
     std::cout << "Enter the number of students: ";
     std::cin >> studentCount;
-    while (!std::isdigit(studentCount)) {
+    while (std::cin.fail()) {
         std::cout << "Please enter a valid number between 1 and 10";
         std::cin >> studentCount;
     }
     std::cout << "Enter the number of subjects: ";
     std::cin >> subjectCount;
-    while (!std::isdigit(subjectCount)) {
+    while (std::cin.fail()) {
         std::cout << "Please enter a valid number between 1 and 10";
         std::cin >> subjectCount;
     }
