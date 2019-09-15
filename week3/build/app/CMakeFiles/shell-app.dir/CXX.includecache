@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/app/main.cpp
+iostream
+-
+ques_3_5.hpp
+/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/app/ques_3_5.hpp
+
+/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/app/ques_3_5.hpp
+iostream
+-
+vector
+-
+string
+-
+limits
+-
+
