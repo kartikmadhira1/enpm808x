@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kartikmadhira/github/enpm808x/week3/app_4_5/ques_4_5.cpp
+iostream
+-
+vector
+-
+string
+-
+limits
+-
+map
+-
+sstream
+-
+

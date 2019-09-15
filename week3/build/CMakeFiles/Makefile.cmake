@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
   "../app_3_5/CMakeLists.txt"
+  "../app_4_5/CMakeLists.txt"
   "CMakeFiles/3.5.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
@@ -50,6 +51,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "app_3_5/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "app_4_5/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "vendor/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -57,6 +59,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "app_3_5/CMakeFiles/shell-app.dir/DependInfo.cmake"
+  "app_4_5/CMakeFiles/app_4_5.dir/DependInfo.cmake"
   "test/CMakeFiles/cpp-test.dir/DependInfo.cmake"
   "vendor/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "vendor/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"

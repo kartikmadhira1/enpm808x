@@ -35,6 +35,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/kartikmadhira/github/enpm808x/week3/build/app_3_5/cmake_install.cmake")
+  include("/home/kartikmadhira/github/enpm808x/week3/build/app_4_5/cmake_install.cmake")
   include("/home/kartikmadhira/github/enpm808x/week3/build/test/cmake_install.cmake")
   include("/home/kartikmadhira/github/enpm808x/week3/build/vendor/googletest/googletest/cmake_install.cmake")
 

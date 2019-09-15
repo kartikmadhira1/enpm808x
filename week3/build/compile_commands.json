@@ -5,6 +5,11 @@
   "file": "/home/kartikmadhira/github/enpm808x/week3/app_3_5/ques_3_5.cpp"
 },
 {
+  "directory": "/home/kartikmadhira/github/enpm808x/week3/build/app_4_5",
+  "command": "/usr/bin/c++    -I/home/kartikmadhira/github/enpm808x/week3/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/app_4_5.dir/ques_4_5.cpp.o -c /home/kartikmadhira/github/enpm808x/week3/app_4_5/ques_4_5.cpp",
+  "file": "/home/kartikmadhira/github/enpm808x/week3/app_4_5/ques_4_5.cpp"
+},
+{
   "directory": "/home/kartikmadhira/github/enpm808x/week3/build/test",
   "command": "/usr/bin/c++    -I/home/kartikmadhira/github/enpm808x/week3/test/../vendor/googletest/googletest/include -I/home/kartikmadhira/github/enpm808x/week3/include -I/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/cpp-test.dir/main.cpp.o -c /home/kartikmadhira/github/enpm808x/week3/test/main.cpp",
   "file": "/home/kartikmadhira/github/enpm808x/week3/test/main.cpp"
