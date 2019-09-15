@@ -1,4 +1,4 @@
-# Install script for directory: /home/kartikmadhira/github/enpm808x/week3/test
+# Install script for directory: /home/kartikmadhira/github/enpm808x/week3/app_3_5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

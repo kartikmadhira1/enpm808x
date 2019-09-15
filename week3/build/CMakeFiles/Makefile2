@@ -54,63 +54,63 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kartikmadhira/enpm808x/week3/cpp-boilerplate
+CMAKE_SOURCE_DIR = /home/kartikmadhira/github/enpm808x/week3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build
+CMAKE_BINARY_DIR = /home/kartikmadhira/github/enpm808x/week3/build
 
 #=============================================================================
-# Directory level rules for directory app
+# Directory level rules for directory app_3_5
 
 # Convenience name for "all" pass in the directory.
-app/all: app/CMakeFiles/shell-app.dir/all
+app_3_5/all: app_3_5/CMakeFiles/shell-app.dir/all
 
-.PHONY : app/all
+.PHONY : app_3_5/all
 
 # Convenience name for "clean" pass in the directory.
-app/clean: app/CMakeFiles/shell-app.dir/clean
+app_3_5/clean: app_3_5/CMakeFiles/shell-app.dir/clean
 
-.PHONY : app/clean
+.PHONY : app_3_5/clean
 
 # Convenience name for "preinstall" pass in the directory.
-app/preinstall:
+app_3_5/preinstall:
 
-.PHONY : app/preinstall
+.PHONY : app_3_5/preinstall
 
 #=============================================================================
-# Target rules for target app/CMakeFiles/shell-app.dir
+# Target rules for target app_3_5/CMakeFiles/shell-app.dir
 
 # All Build rule for target.
-app/CMakeFiles/shell-app.dir/all:
-	$(MAKE) -f app/CMakeFiles/shell-app.dir/build.make app/CMakeFiles/shell-app.dir/depend
-	$(MAKE) -f app/CMakeFiles/shell-app.dir/build.make app/CMakeFiles/shell-app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles --progress-num=8,9 "Built target shell-app"
-.PHONY : app/CMakeFiles/shell-app.dir/all
+app_3_5/CMakeFiles/shell-app.dir/all:
+	$(MAKE) -f app_3_5/CMakeFiles/shell-app.dir/build.make app_3_5/CMakeFiles/shell-app.dir/depend
+	$(MAKE) -f app_3_5/CMakeFiles/shell-app.dir/build.make app_3_5/CMakeFiles/shell-app.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles --progress-num=8,9 "Built target shell-app"
+.PHONY : app_3_5/CMakeFiles/shell-app.dir/all
 
 # Include target in all.
-all: app/CMakeFiles/shell-app.dir/all
+all: app_3_5/CMakeFiles/shell-app.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-app/CMakeFiles/shell-app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/shell-app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles 0
-.PHONY : app/CMakeFiles/shell-app.dir/rule
+app_3_5/CMakeFiles/shell-app.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 app_3_5/CMakeFiles/shell-app.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles 0
+.PHONY : app_3_5/CMakeFiles/shell-app.dir/rule
 
 # Convenience name for target.
-shell-app: app/CMakeFiles/shell-app.dir/rule
+shell-app: app_3_5/CMakeFiles/shell-app.dir/rule
 
 .PHONY : shell-app
 
 # clean rule for target.
-app/CMakeFiles/shell-app.dir/clean:
-	$(MAKE) -f app/CMakeFiles/shell-app.dir/build.make app/CMakeFiles/shell-app.dir/clean
-.PHONY : app/CMakeFiles/shell-app.dir/clean
+app_3_5/CMakeFiles/shell-app.dir/clean:
+	$(MAKE) -f app_3_5/CMakeFiles/shell-app.dir/build.make app_3_5/CMakeFiles/shell-app.dir/clean
+.PHONY : app_3_5/CMakeFiles/shell-app.dir/clean
 
 # clean rule for target.
-clean: app/CMakeFiles/shell-app.dir/clean
+clean: app_3_5/CMakeFiles/shell-app.dir/clean
 
 .PHONY : clean
 
@@ -139,7 +139,7 @@ test/preinstall:
 test/CMakeFiles/cpp-test.dir/all: vendor/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/depend
 	$(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles --progress-num=1,2,3 "Built target cpp-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles --progress-num=1,2,3 "Built target cpp-test"
 .PHONY : test/CMakeFiles/cpp-test.dir/all
 
 # Include target in all.
@@ -149,9 +149,9 @@ all: test/CMakeFiles/cpp-test.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/cpp-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/cpp-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/cpp-test.dir/rule
 
 # Convenience name for target.
@@ -196,7 +196,7 @@ vendor/googletest/googletest/preinstall:
 vendor/googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f vendor/googletest/googletest/CMakeFiles/gtest.dir/build.make vendor/googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f vendor/googletest/googletest/CMakeFiles/gtest.dir/build.make vendor/googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles --progress-num=4,5 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles --progress-num=4,5 "Built target gtest"
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -206,9 +206,9 @@ all: vendor/googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/googletest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles 0
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -233,7 +233,7 @@ clean: vendor/googletest/googletest/CMakeFiles/gtest.dir/clean
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/all: vendor/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f vendor/googletest/googletest/CMakeFiles/gtest_main.dir/build.make vendor/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f vendor/googletest/googletest/CMakeFiles/gtest_main.dir/build.make vendor/googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles --progress-num=6,7 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles --progress-num=6,7 "Built target gtest_main"
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -243,9 +243,9 @@ all: vendor/googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles 0
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

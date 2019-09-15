@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/app/main.cpp" "/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/app/CMakeFiles/shell-app.dir/main.cpp.o"
+  "/home/kartikmadhira/github/enpm808x/week3/app/main.cpp" "/home/kartikmadhira/github/enpm808x/week3/build/app/CMakeFiles/shell-app.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -540,21 +540,21 @@ sys/types.h
 src/gtest-internal-inl.h
 ../vendor/googletest/googletest/src/src/gtest-internal-inl.h
 
-/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/gtest-all.cc
+/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/gtest-all.cc
 gtest/gtest.h
-/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/gtest/gtest.h
+/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/gtest/gtest.h
 src/gtest.cc
-/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/src/gtest.cc
+/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/src/gtest.cc
 src/gtest-death-test.cc
-/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/src/gtest-death-test.cc
+/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/src/gtest-filepath.cc
+/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/src/gtest-filepath.cc
 src/gtest-port.cc
-/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/src/gtest-port.cc
+/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/src/gtest-port.cc
 src/gtest-printers.cc
-/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/src/gtest-printers.cc
+/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/src/gtest-test-part.cc
+/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/src/gtest-typed-test.cc
+/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/src/gtest-typed-test.cc
 

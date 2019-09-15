@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -Wextra -Wpedantic -g   -Wall -Wextra -Wpedantic -g -Wall -Wsh
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/include -I/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest 
+CXX_INCLUDES = -I/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/include -I/home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest 
 

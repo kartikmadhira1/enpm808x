@@ -278,11 +278,11 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/test/main.cpp
+/home/kartikmadhira/github/enpm808x/week3/test/main.cpp
 gtest/gtest.h
 -
 
-/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/test/test.cpp
+/home/kartikmadhira/github/enpm808x/week3/test/test.cpp
 gtest/gtest.h
 -
 

@@ -113,14 +113,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles /home/kartikmadhira/github/enpm808x/week3/build/test/CMakeFiles/progress.marks
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	cd /home/kartikmadhira/github/enpm808x/week3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles /home/kartikmadhira/github/enpm808x/week3/build/app_3_5/CMakeFiles/progress.marks
+	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f CMakeFiles/Makefile2 app_3_5/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f CMakeFiles/Makefile2 app_3_5/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,12 +130,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f CMakeFiles/Makefile2 app_3_5/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f CMakeFiles/Makefile2 app_3_5/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -144,73 +144,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/cpp-test.dir/rule:
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/cpp-test.dir/rule
-.PHONY : test/CMakeFiles/cpp-test.dir/rule
+app_3_5/CMakeFiles/shell-app.dir/rule:
+	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f CMakeFiles/Makefile2 app_3_5/CMakeFiles/shell-app.dir/rule
+.PHONY : app_3_5/CMakeFiles/shell-app.dir/rule
 
 # Convenience name for target.
-cpp-test: test/CMakeFiles/cpp-test.dir/rule
+shell-app: app_3_5/CMakeFiles/shell-app.dir/rule
 
-.PHONY : cpp-test
+.PHONY : shell-app
 
 # fast build rule for target.
-cpp-test/fast:
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/build
-.PHONY : cpp-test/fast
+shell-app/fast:
+	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f app_3_5/CMakeFiles/shell-app.dir/build.make app_3_5/CMakeFiles/shell-app.dir/build
+.PHONY : shell-app/fast
 
-main.o: main.cpp.o
+ques_3_5.o: ques_3_5.cpp.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-test.o: test.cpp.o
-
-.PHONY : test.o
+.PHONY : ques_3_5.o
 
 # target to build an object file
-test.cpp.o:
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/test.cpp.o
-.PHONY : test.cpp.o
+ques_3_5.cpp.o:
+	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f app_3_5/CMakeFiles/shell-app.dir/build.make app_3_5/CMakeFiles/shell-app.dir/ques_3_5.cpp.o
+.PHONY : ques_3_5.cpp.o
 
-test.i: test.cpp.i
+ques_3_5.i: ques_3_5.cpp.i
 
-.PHONY : test.i
+.PHONY : ques_3_5.i
 
 # target to preprocess a source file
-test.cpp.i:
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/test.cpp.i
-.PHONY : test.cpp.i
+ques_3_5.cpp.i:
+	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f app_3_5/CMakeFiles/shell-app.dir/build.make app_3_5/CMakeFiles/shell-app.dir/ques_3_5.cpp.i
+.PHONY : ques_3_5.cpp.i
 
-test.s: test.cpp.s
+ques_3_5.s: ques_3_5.cpp.s
 
-.PHONY : test.s
+.PHONY : ques_3_5.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/test.cpp.s
-.PHONY : test.cpp.s
+ques_3_5.cpp.s:
+	cd /home/kartikmadhira/github/enpm808x/week3/build && $(MAKE) -f app_3_5/CMakeFiles/shell-app.dir/build.make app_3_5/CMakeFiles/shell-app.dir/ques_3_5.cpp.s
+.PHONY : ques_3_5.cpp.s
 
 # Help Target
 help:
@@ -220,16 +193,13 @@ help:
 	@echo "... depend"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... cpp-test"
+	@echo "... shell-app"
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... ques_3_5.o"
+	@echo "... ques_3_5.i"
+	@echo "... ques_3_5.s"
 .PHONY : help
 
 

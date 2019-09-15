@@ -1,4 +1,4 @@
-# Install script for directory: /home/kartikmadhira/enpm808x/week3/cpp-boilerplate
+# Install script for directory: /home/kartikmadhira/github/enpm808x/week3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/app/cmake_install.cmake")
-  include("/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/test/cmake_install.cmake")
-  include("/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/vendor/googletest/googletest/cmake_install.cmake")
+  include("/home/kartikmadhira/github/enpm808x/week3/build/app_3_5/cmake_install.cmake")
+  include("/home/kartikmadhira/github/enpm808x/week3/build/test/cmake_install.cmake")
+  include("/home/kartikmadhira/github/enpm808x/week3/build/vendor/googletest/googletest/cmake_install.cmake")
 
 endif()
 
@@ -48,5 +48,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kartikmadhira/github/enpm808x/week3/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

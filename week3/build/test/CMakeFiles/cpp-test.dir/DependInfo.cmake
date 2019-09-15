@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/test/main.cpp" "/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/test/CMakeFiles/cpp-test.dir/main.cpp.o"
-  "/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/test/test.cpp" "/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/test/CMakeFiles/cpp-test.dir/test.cpp.o"
+  "/home/kartikmadhira/github/enpm808x/week3/test/main.cpp" "/home/kartikmadhira/github/enpm808x/week3/build/test/CMakeFiles/cpp-test.dir/main.cpp.o"
+  "/home/kartikmadhira/github/enpm808x/week3/test/test.cpp" "/home/kartikmadhira/github/enpm808x/week3/build/test/CMakeFiles/cpp-test.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/vendor/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/kartikmadhira/github/enpm808x/week3/build/vendor/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/app
+# Install script for directory: /home/kartikmadhira/github/enpm808x/week3/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kartikmadhira/enpm808x/week3/cpp-boilerplate
+CMAKE_SOURCE_DIR = /home/kartikmadhira/github/enpm808x/week3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build
+CMAKE_BINARY_DIR = /home/kartikmadhira/github/enpm808x/week3/build
 
 # Include any dependencies generated for this target.
 include vendor/googletest/googletest/CMakeFiles/gtest_main.dir/depend.make
@@ -59,16 +59,16 @@ include vendor/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: vendor/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: ../vendor/googletest/googletest/src/gtest_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/vendor/googletest/googletest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+	cd /home/kartikmadhira/github/enpm808x/week3/build/vendor/googletest/googletest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/gtest_main.cc
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/vendor/googletest/googletest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /home/kartikmadhira/github/enpm808x/week3/build/vendor/googletest/googletest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/vendor/googletest/googletest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /home/kartikmadhira/github/enpm808x/week3/build/vendor/googletest/googletest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.requires:
 
@@ -91,9 +91,9 @@ gtest_main_EXTERNAL_OBJECTS =
 vendor/googletest/googletest/libgtest_main.a: vendor/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 vendor/googletest/googletest/libgtest_main.a: vendor/googletest/googletest/CMakeFiles/gtest_main.dir/build.make
 vendor/googletest/googletest/libgtest_main.a: vendor/googletest/googletest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
-	cd /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/vendor/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
-	cd /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/vendor/googletest/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kartikmadhira/github/enpm808x/week3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
+	cd /home/kartikmadhira/github/enpm808x/week3/build/vendor/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+	cd /home/kartikmadhira/github/enpm808x/week3/build/vendor/googletest/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/build: vendor/googletest/googletest/libgtest_main.a
@@ -105,10 +105,10 @@ vendor/googletest/googletest/CMakeFiles/gtest_main.dir/requires: vendor/googlete
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest_main.dir/requires
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
-	cd /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/vendor/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
+	cd /home/kartikmadhira/github/enpm808x/week3/build/vendor/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest_main.dir/clean
 
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kartikmadhira/enpm808x/week3/cpp-boilerplate /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/vendor/googletest/googletest /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/vendor/googletest/googletest /home/kartikmadhira/enpm808x/week3/cpp-boilerplate/build/vendor/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kartikmadhira/github/enpm808x/week3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kartikmadhira/github/enpm808x/week3 /home/kartikmadhira/github/enpm808x/week3/vendor/googletest/googletest /home/kartikmadhira/github/enpm808x/week3/build /home/kartikmadhira/github/enpm808x/week3/build/vendor/googletest/googletest /home/kartikmadhira/github/enpm808x/week3/build/vendor/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 
