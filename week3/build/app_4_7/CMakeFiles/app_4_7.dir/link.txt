@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -Wextra -Wpedantic -g   CMakeFiles/app_4_7.dir/ques_4_7.cpp.o  -o app_4_7 -rdynamic 
